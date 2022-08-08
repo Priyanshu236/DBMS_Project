@@ -1,0 +1,48 @@
+.All-posts{
+    display: flex;
+    flex-direction: column;
+    color: rgb(215, 218, 218);
+}
+h1{
+    display: inline;
+}
+div{
+    margin: 5px;
+}
+.date{
+    margin-left: 10px;
+    font-size: 80%;
+}
+.post {
+    margin: 20px;
+    display: flex;
+    /* width: px; */
+    /* margin: 0px; */
+    justify-content: center;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+.img-box{
+    width: 100px;
+    height: 100px;
+    
+    object-fit: cover;
+    border-radius: 10%;
+}
+.img-box:hover{
+    cursor: pointer;
+}
+.desc{
+    margin-top: 14px;
+    margin-left: 8px;
+    width: 35%;
+}
+.Text{
+   text-align: start;
+}
+.Text{
+    width: 67%;
+    height: 100px;
+}
